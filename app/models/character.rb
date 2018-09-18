@@ -1,3 +1,4 @@
 class Character < ActiveRecord::Base
-  songs
+  has_many :shows
+
 end
