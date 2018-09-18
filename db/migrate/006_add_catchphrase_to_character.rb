@@ -3,6 +3,6 @@ class AddCatchphraseToCharacter < ActiveRecord::Migration
   #a new migration, and then in the change method,
   #we make the change.
   def change
-    add_column :shows, :integer
+    add_column :catchphrase, :string
   end
 end
