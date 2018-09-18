@@ -4,7 +4,7 @@ class CreateActors < ActiveRecord::Migration
     create_table :actors do |t| #we get a block variable here for the table
       #primary key of :id is created for us!
       # defining columns is as simple as t.[datatype] :column
-      t.string :call_letters
+      t.string :f
       # the above breaks down to
       # "create a column called :call_letters on table t with type string
       t.integer :channel
