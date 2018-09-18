@@ -1,3 +1,4 @@
 class Actor < ActiveRecord::Base
-  has
+  has_many :characters
+  has_many :shows, through: :characters
 end
